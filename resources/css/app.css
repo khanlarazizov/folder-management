@@ -1,0 +1,127 @@
+label.required::after {
+    content: '*';
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.modal-header {
+    padding: 0.5rem!important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.modal-content {
+    border-radius: 0px;
+    border: none;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.sortable {
+    color: rgb(5, 5, 131);
+    cursor: pointer;
+}
+
+.asc::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    content: "\f884";
+}
+
+.desc::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 5px;
+    content: "\f160";
+}
+
+.btn-danger{
+    background-color: #c02 !important;
+    border-color: #c02;
+
+}
+
+.btn-success{
+    background-color: #078925;
+    border-color: #078925;
+
+}
+
+.breadcrumb-item{
+    font-size: 20px;
+    color: #000 !important;
+    font-weight: 500;
+}
+.breadcrumb-item>a{
+    color: #c02 !important;
+    font-weight: 500;
+}
+
+.main-header.navbar{
+    margin-top: 5px;
+    background-color: #c02;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main-header .navbar-nav .nav-item .nav-link >i{
+    color: #fff;
+}
+.main-header .navbar-nav .nav-item h4{
+    color: #fff;
+}
+.main-header .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.navbar-expand .navbar-nav .dropdown-menu{
+    background: #fff;
+    border-color: none;
+}
+
+.font-weight-light{
+    color: #fff;
+    font-weight: 500 !important;
+}
+.brand-link{
+    background-color: #fff !important;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+    border-bottom: 0px !important;
+}
+
+.nav-sidebar{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.horizontal {
+    background-image: linear-gradient(90deg,transparent,rgb(184, 9, 9),transparent) !important;
+    height: 1px;
+}
+.sidebar-mini .main-sidebar .nav-flat .nav-link, .sidebar-mini-md .main-sidebar .nav-flat .nav-link, .sidebar-mini-xs .main-sidebar .nav-flat .nav-link{
+    width: 225px !important;
+}
+.layout-navbar-fixed .wrapper .main-header{
+    border-radius: 1rem;
+}
+
+.navbar-expand{
+    margin-left: 265px !important;
+    margin-right: 15px !important;
+}
+
+.form-control {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.25rem + 2px);
+    padding: 0.625rem 0.75rem;
+    transition: all .15s cubic-bezier(.68, -.55, .265, 1.55);
+    color: #8898aa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    box-shadow: 0 3px 2px rgba(233, 236, 239, .05);
+}
